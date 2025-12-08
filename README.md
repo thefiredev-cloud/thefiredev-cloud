@@ -15,7 +15,7 @@ I am a passionate tech developer focused on building innovative applications, ex
   - - [Website](https://www.thefiredev.com)
    
     - ## 🌐 Connect with me:
-    - [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thefiredev/)
+    - [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tannerosterkamp/)
    
     - # 💻 Tech Stack:
     - Languages:
