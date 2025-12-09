@@ -1,23 +1,23 @@
-<h1 align="center">Hi 👋 I'm thefiredev</h1>
+<h1 align="center">Hi  I'm thefiredev</h1>
 
-# 🔥 About Me:
+# About Me:
 I am a passionate tech developer focused on building innovative applications, exploring AI and machine learning, and creating robust cloud solutions.
 
-## 🚀 What I'm Up To
-- 🤖 Building AI-powered applications with Claude and MCP
-- - ☁️ Developing cloud-based solutions and automation systems
+## What I'm Up To
+- Building AI-powered applications with Claude and MCP
+- - Developing cloud-based solutions and automation systems
  
   - Check out my [portfolio](https://www.thefiredev.com)!
  
-  - ## 👨‍💻 About Me
+  - ## About Me
   - I'm a tech enthusiast sharing my development journey and building cool projects.
  
   - - [Website](https://www.thefiredev.com)
    
-    - ## 🌐 Connect with me:
+    - ## Connect with me:
     - [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tannerosterkamp/)
    
-    - # 💻 Tech Stack:
+    - # Tech Stack:
     - Languages:
     - ![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
     - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
