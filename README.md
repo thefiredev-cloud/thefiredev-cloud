@@ -14,7 +14,7 @@ I'm **Tanner Osterkamp**, founder of **[Open Mesh](https://openmesh.live)** &mda
 ### 🌐 Open Mesh
 - **Site:** [openmesh.live](https://openmesh.live) &mdash; done-for-you private OS, installed on your hardware
 - **Reference architecture (public):** [openmesh-architecture](https://github.com/thefiredev-cloud/openmesh-architecture) &mdash; mesh topology, DGX Spark inference hub, browser&rarr;local-LLM wiring, model selection
-- **The stack:** owned 5-layer OS &middot; local MCP tool layer across 209 servers &middot; Obsidian + Graphify memory &middot; approval-gated, local-by-default
+- **The stack:** owned 5-layer OS &middot; local MCP tool layer across 209 servers &middot; Open Mesh memory vault + knowledge routing &middot; approval-gated, local-by-default
 
 ### 🛠️ Public proof-of-work
 | Repo | What it is |
@@ -31,6 +31,6 @@ I'm **Tanner Osterkamp**, founder of **[Open Mesh](https://openmesh.live)** &mda
 ![NVIDIA DGX](https://img.shields.io/badge/NVIDIA_DGX_Spark-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
+![Memory Vault](https://img.shields.io/badge/Memory_Vault-7C3AED?style=for-the-badge)
 
 <p align="center"><sub>Private. Local. Sovereign. After setup, you own the entire stack.</sub></p>
