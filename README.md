@@ -4,25 +4,70 @@
 
 [![Open Mesh](https://img.shields.io/badge/website-openmesh.live-C77D2E?style=for-the-badge)](https://openmesh.live)
 
-**Own the AI that runs your business. Don't rent it.**
+### Own the AI that runs your business. **Don't rent it.**
+
+**Org hub for Open Mesh, Spark operator tooling, and select product lines.**
 
 </div>
 
 ---
 
-## Open Mesh
+## Start here (public)
+
+| Step | Repo / link |
+|------|-------------|
+| **Feel the product** | [**open-mesh**](https://github.com/thefiredev-cloud/open-mesh) — `python3 openmesh.py` |
+| **Understand topology** | [**openmesh-architecture**](https://github.com/thefiredev-cloud/openmesh-architecture) |
+| **Harden the Spark** | [**spark-edr**](https://github.com/thefiredev-cloud/spark-edr) |
+| **Dictate locally** | [**dgx-spark-dictate**](https://github.com/thefiredev-cloud/dgx-spark-dictate) |
+| **Rank vault hubs** | [**markdown-link-pagerank**](https://github.com/thefiredev-cloud/markdown-link-pagerank) |
+| **Commercial site** | [**openmesh.live**](https://openmesh.live) |
+
+---
+
+## Open Mesh family (private + public)
+
+| Repo | Visibility | Role |
+|------|------------|------|
+| [open-mesh](https://github.com/thefiredev-cloud/open-mesh) | Public MIT | Starter |
+| [openmesh.live](https://github.com/thefiredev-cloud/openmesh.live) | Private | Netlify marketing source |
+| [openmesh-os](https://github.com/thefiredev-cloud/openmesh-os) | Private | UI, vault, MCP, mesh monorepo |
+| [openmesh-client-install](https://github.com/thefiredev-cloud/openmesh-client-install) | Private | Client templates |
+| [openmesh-client-analyzer](https://github.com/thefiredev-cloud/openmesh-client-analyzer) | Private | Per-client analyzer |
+| [dgx-spark-stack](https://github.com/thefiredev-cloud/dgx-spark-stack) | Private | Spark install pipeline |
+| [agents-skills](https://github.com/thefiredev-cloud/agents-skills) | Private | 2,300+ skills library |
+
+---
+
+## Infrastructure & security
 
 | Repo | |
 |------|--|
-| [open-mesh](https://github.com/thefiredev-cloud/open-mesh) | Public MIT starter |
-| [openmesh.live](https://github.com/thefiredev-cloud/openmesh.live) | Marketing site |
-| [openmesh-architecture](https://github.com/thefiredev-cloud/openmesh-architecture) | Reference diagrams |
-| [openmesh-os](https://github.com/thefiredev-cloud/openmesh-os) | Private OS monorepo |
-| [openmesh-client-install](https://github.com/thefiredev-cloud/openmesh-client-install) | Client templates |
-| [openmesh-client-analyzer](https://github.com/thefiredev-cloud/openmesh-client-analyzer) | Client analyzer |
-| [dgx-spark-stack](https://github.com/thefiredev-cloud/dgx-spark-stack) | Spark install |
-| [agents-skills](https://github.com/thefiredev-cloud/agents-skills) | Skills library |
+| [spark-edr](https://github.com/thefiredev-cloud/spark-edr) | Linux EDR loop + agent skills |
+| [public-project-sanitizer](https://github.com/thefiredev-cloud/public-project-sanitizer) | Pre-public secret/PII scan |
+| [agent-config-parity](https://github.com/thefiredev-cloud/agent-config-parity) | Hermes / Claude / Codex parity |
 
-## Also
+---
 
-spark-edr · public-project-sanitizer · JudgeFinder · Protocol Guide · labs (maritime, wifi CSI, Zoom pipeline, Redfin).
+## Other products
+
+| Repo | Line |
+|------|------|
+| [Protocol-Guide](https://github.com/thefiredev-cloud/Protocol-Guide) | EMS reference app |
+| [JudgeFinder](https://github.com/thefiredev-cloud/JudgeFinder) | Legal analytics |
+| [JudgeBinder-iOS](https://github.com/thefiredev-cloud/JudgeBinder-iOS) | Capacitor iOS shell |
+
+Labs: maritime / wifi CSI / Zoom sales / Redfin CLIs — local-first research sandboxes.
+
+---
+
+## Profile & org
+
+- User profile README: [github.com/thefiredev-cloud](https://github.com/thefiredev-cloud)  
+- Org profile repo: [thefiredev-cloud/.github](https://github.com/thefiredev-cloud/.github)
+
+**Social preview images (1280×640, copper/dark):** see session `artifacts/github-social-previews/` — upload per repo under **Settings → General → Social preview**.
+
+---
+
+**[openmesh.live](https://openmesh.live)** · DGX Spark · local-first · no SaaS rent
