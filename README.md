@@ -21,7 +21,7 @@
 | **Harden Linux** | [**spark-edr**](https://github.com/thefiredev-cloud/spark-edr) |
 | **Product** | [**openmesh.live**](https://openmesh.live) |
 
-Operator monorepo (`openmesh-os`), marketing source, deploy templates, and client workspaces are **private** — collaborator access only.
+Full operator stack and engagement workspaces are **private** — collaborator access only.
 
 ---
 
