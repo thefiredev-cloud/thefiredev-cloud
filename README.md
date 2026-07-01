@@ -25,17 +25,18 @@
 
 ---
 
-## Open Mesh family (private + public)
+## Open Mesh (operator)
 
 | Repo | Visibility | Role |
 |------|------------|------|
 | [open-mesh](https://github.com/thefiredev-cloud/open-mesh) | Public MIT | Starter |
-| [openmesh.live](https://github.com/thefiredev-cloud/openmesh.live) | Private | Netlify marketing source |
+| [openmesh-architecture](https://github.com/thefiredev-cloud/openmesh-architecture) | Public | Reference topology |
 | [openmesh-os](https://github.com/thefiredev-cloud/openmesh-os) | Private | UI, vault, MCP, mesh monorepo |
-| [openmesh-client-install](https://github.com/thefiredev-cloud/openmesh-client-install) | Private | Client templates |
-| [openmesh-client-analyzer](https://github.com/thefiredev-cloud/openmesh-client-analyzer) | Private | Per-client analyzer |
+| [openmesh.live](https://github.com/thefiredev-cloud/openmesh.live) | Private | Netlify marketing source |
 | [dgx-spark-stack](https://github.com/thefiredev-cloud/dgx-spark-stack) | Private | Spark install pipeline |
-| [agents-skills](https://github.com/thefiredev-cloud/agents-skills) | Private | 2,300+ skills library |
+| [agents-skills](https://github.com/thefiredev-cloud/agents-skills) | Private | Skills library (operator) |
+
+Client-specific deploy workspaces stay **private** and are **not** listed here.
 
 ---
 
@@ -49,24 +50,15 @@
 
 ---
 
-## Other products
+## Other products (private repos)
 
-| Repo | Line |
-|------|------|
-| [Protocol-Guide](https://github.com/thefiredev-cloud/Protocol-Guide) | EMS reference app |
-| [JudgeFinder](https://github.com/thefiredev-cloud/JudgeFinder) | Legal analytics |
-| [JudgeBinder-iOS](https://github.com/thefiredev-cloud/JudgeBinder-iOS) | Capacitor iOS shell |
-
-Labs: maritime / wifi CSI / Zoom sales / Redfin CLIs — local-first research sandboxes.
+EMS reference app, legal analytics, and internal research sandboxes — visible on the org only when you are a collaborator.
 
 ---
 
-## Profile & org
+## Profile
 
-- User profile README: [github.com/thefiredev-cloud](https://github.com/thefiredev-cloud)  
-- Org profile repo: [thefiredev-cloud/.github](https://github.com/thefiredev-cloud/.github)
-
-**Social preview images (1280×640, copper/dark):** see session `artifacts/github-social-previews/` — upload per repo under **Settings → General → Social preview**.
+- [github.com/thefiredev-cloud](https://github.com/thefiredev-cloud)
 
 ---
 
