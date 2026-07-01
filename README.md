@@ -6,60 +6,29 @@
 
 ### Own the AI that runs your business. **Don't rent it.**
 
-**Org hub for Open Mesh, Spark operator tooling, and select product lines.**
+**Public org hub — Open Mesh starter, architecture, and Spark security.**
 
 </div>
 
 ---
 
-## Start here (public)
+## Start here
 
-| Step | Repo / link |
-|------|-------------|
-| **Feel the product** | [**open-mesh**](https://github.com/thefiredev-cloud/open-mesh) — `python3 openmesh.py` |
-| **Understand topology** | [**openmesh-architecture**](https://github.com/thefiredev-cloud/openmesh-architecture) |
-| **Harden the Spark** | [**spark-edr**](https://github.com/thefiredev-cloud/spark-edr) |
-| **Dictate locally** | [**dgx-spark-dictate**](https://github.com/thefiredev-cloud/dgx-spark-dictate) |
-| **Rank vault hubs** | [**markdown-link-pagerank**](https://github.com/thefiredev-cloud/markdown-link-pagerank) |
-| **Commercial site** | [**openmesh.live**](https://openmesh.live) |
+| Step | Link |
+|------|------|
+| **Try it** | [**open-mesh**](https://github.com/thefiredev-cloud/open-mesh) — `python3 openmesh.py` (MIT) |
+| **Topology** | [**openmesh-architecture**](https://github.com/thefiredev-cloud/openmesh-architecture) |
+| **Harden Linux** | [**spark-edr**](https://github.com/thefiredev-cloud/spark-edr) |
+| **Product** | [**openmesh.live**](https://openmesh.live) |
 
----
-
-## Open Mesh (operator)
-
-| Repo | Visibility | Role |
-|------|------------|------|
-| [open-mesh](https://github.com/thefiredev-cloud/open-mesh) | Public MIT | Starter |
-| [openmesh-architecture](https://github.com/thefiredev-cloud/openmesh-architecture) | Public | Reference topology |
-| [openmesh-os](https://github.com/thefiredev-cloud/openmesh-os) | Private | UI, vault, MCP, mesh monorepo |
-| [openmesh.live](https://github.com/thefiredev-cloud/openmesh.live) | Private | Netlify marketing source |
-| [dgx-spark-stack](https://github.com/thefiredev-cloud/dgx-spark-stack) | Private | Spark install pipeline |
-| [agents-skills](https://github.com/thefiredev-cloud/agents-skills) | Private | Skills library (operator) |
-
-Client-specific deploy workspaces stay **private** and are **not** listed here.
+Operator monorepo (`openmesh-os`), marketing source, deploy templates, and client workspaces are **private** — collaborator access only.
 
 ---
 
-## Infrastructure & security
+## Security
 
-| Repo | |
-|------|--|
-| [spark-edr](https://github.com/thefiredev-cloud/spark-edr) | Linux EDR loop + agent skills |
-| [public-project-sanitizer](https://github.com/thefiredev-cloud/public-project-sanitizer) | Pre-public secret/PII scan |
-| [agent-config-parity](https://github.com/thefiredev-cloud/agent-config-parity) | Hermes / Claude / Codex parity |
+Report issues per repo **SECURITY.md** → **tanner@openmesh.live** (no public issues for vulns).
 
 ---
 
-## Other products (private repos)
-
-EMS reference app, legal analytics, and internal research sandboxes — visible on the org only when you are a collaborator.
-
----
-
-## Profile
-
-- [github.com/thefiredev-cloud](https://github.com/thefiredev-cloud)
-
----
-
-**[openmesh.live](https://openmesh.live)** · DGX Spark · local-first · no SaaS rent
+**[openmesh.live](https://openmesh.live)** · DGX Spark · local-first
