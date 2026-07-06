@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# thefiredev-cloud
+# MeshVault
 
 
 [![MeshVault](https://img.shields.io/badge/website-meshvault.ai-33333A?style=for-the-badge)](https://meshvault.ai)
