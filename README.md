@@ -24,7 +24,7 @@
 
 | Step | Link |
 |------|------|
-| **Try it** | [**open-mesh**](https://github.com/thefiredev-cloud/open-mesh) — `python3 openmesh.py` (MIT) |
+| **Try it** | [**meshvault**](https://github.com/thefiredev-cloud/meshvault) — `python3 meshvault.py` (MIT) |
 | **Topology** | [**openmesh-architecture**](https://github.com/thefiredev-cloud/openmesh-architecture) |
 | **Harden Linux** | [**spark-edr**](https://github.com/thefiredev-cloud/spark-edr) |
 | **Product** | [**meshvault.ai**](https://meshvault.ai) |
