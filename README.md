@@ -10,7 +10,7 @@
 ### Your business already has a brain. It's just renting it. **We install one you own.**
 
 
-**Public org hub — MeshVault reference architecture and Spark security.**
+**Public org hub — MeshVault reference architecture and agent skills.**
 
 
 </div>
@@ -24,9 +24,8 @@
 
 | Step | Link |
 |------|------|
-| **Try it** | [**meshvault**](https://github.com/thefiredev-cloud/meshvault) — `python3 meshvault.py` (MIT) |
-| **Topology** | [**openmesh-architecture**](https://github.com/thefiredev-cloud/openmesh-architecture) |
-| **Harden Linux** | [**spark-edr**](https://github.com/thefiredev-cloud/spark-edr) |
+| **Try it** | [**meshvault-skills-starter**](https://github.com/thefiredev-cloud/meshvault-skills-starter) — MIT agent skills, drop them in and run |
+| **Topology** | [**meshvault-agentic-architecture**](https://github.com/thefiredev-cloud/meshvault-agentic-architecture) |
 | **Product** | [**meshvault.ai**](https://meshvault.ai) |
 
 
