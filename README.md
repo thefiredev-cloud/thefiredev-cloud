@@ -1,8 +1,15 @@
 # Tanner Osterkamp
 
-Founder of [MeshVault](https://meshvault.ai). Dana Point, California.
+Founder of [MeshVault](https://meshvault.ai) and [TheFireDev](https://thefiredev.com). AI application engineer in Dana Point, California.
 
-MeshVault is a private AI operating system installed on hardware you own. It is built on NVIDIA DGX Spark. Data and inference are local-first, and agents stop for the owner's approval before they send, pay, post, or delete.
+MeshVault sets up a server a business owns, pairs Hermes Desktop and an iPhone app to it, and keeps a backup that has passed a restore test. Data and inference are local-first, and agents stop for a named person's approval before they send, pay, post, or delete.
+
+## Products (status as of 2026-10-05)
+
+- **[MeshVault](https://meshvault.ai)**: the one-week install of a server you own, with Hermes Desktop and an iPhone app paired to it. The iPhone app is pre-release (TestFlight by invite, no App Store listing yet). There are no paying install clients yet.
+- **[Protocol Guide](https://protocol-guide.com)**: source-cited EMS protocol search by county for students, educators and clinicians. Every result names the protocol book it came from. Education and reference only: not a medical device, not for bedside care. The web app is live. The iOS app is not on the App Store yet.
+- **[JudgeFinder](https://judgefinder.vercel.app)**: free, anonymous judge lookup built on CourtListener docket metadata. It shows court assignment, case volume and recent dockets. It is not legal advice and it publishes no bias scores. The judgefinder.io domain is being restored.
+- **[TheFireDev](https://thefiredev.com)**: my consulting and freelance studio. It builds AI systems for small businesses: the model, the application, and the compute.
 
 ## What I work on
 
@@ -19,9 +26,11 @@ MeshVault is a private AI operating system installed on hardware you own. It is 
 - [meshvault-bot](https://github.com/thefiredev-cloud/meshvault-bot): self-hostable bot app on Hermes Agent with a sandboxed computer per bot (fork of Rakazo).
 - [airpods-max-sidetone](https://github.com/thefiredev-cloud/airpods-max-sidetone): supervised PipeWire sidetone for AirPods Max on Linux.
 
-Most MeshVault product code is private. The repositories above are public and MIT or Apache-2.0 licensed.
+Most product code is private. The repositories above are public and MIT or Apache-2.0 licensed.
 
 ## Contact
 
-- Website: [meshvault.ai](https://meshvault.ai)
+- [LinkedIn](https://www.linkedin.com/in/tannerosterkamp)
+- Websites: [meshvault.ai](https://meshvault.ai) · [thefiredev.com](https://thefiredev.com)
+- Consulting and freelance work: tanner@thefiredev.com
 - Security reports: see [SECURITY.md](SECURITY.md). Please do not open public issues for vulnerabilities.
