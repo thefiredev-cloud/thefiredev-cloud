@@ -9,6 +9,7 @@ MeshVault sets up a server a business owns, pairs Hermes Desktop and an iPhone a
 - **[MeshVault](https://meshvault.ai)**: the one-week install of a server you own, with Hermes Desktop and an iPhone app paired to it. The iPhone app is pre-release (TestFlight by invite, no App Store listing yet). There are no paying install clients yet.
 - **[Protocol Guide](https://protocol-guide.com)**: source-cited EMS protocol search by county for students, educators and clinicians. Every result names the protocol book it came from. Education and reference only: not a medical device, not for bedside care. The web app is live. The iOS app is not on the App Store yet.
 - **[JudgeFinder](https://judgefinder.vercel.app)**: free, anonymous judge lookup built on CourtListener docket metadata. It shows court assignment, case volume and recent dockets. It is not legal advice and it publishes no bias scores. The judgefinder.io domain is being restored.
+- **[MeshVault Harness](https://github.com/thefiredev-cloud/meshvault-harness)**: free MIT installer for a private AI agent on your own computer (Linux or Mac): Hermes, OMP, a local model, and 11 skills that stop for approval before they send, pay, post or delete. A 9-skill Pro pack is $99 and a done-for-you install is $499, both described at [thefiredev.com/harness](https://thefiredev.com/harness).
 - **[TheFireDev](https://thefiredev.com)**: my consulting and freelance studio. It builds AI systems for small businesses: the model, the application, and the compute.
 
 ## What I work on
