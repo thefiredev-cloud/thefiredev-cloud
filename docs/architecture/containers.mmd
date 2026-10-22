@@ -1,0 +1,17 @@
+flowchart LR
+  visitor(["Visitor"]):::actor
+  owner(["Owner (edits the README)"]):::actor
+  gh{{"GitHub profile page"}}:::ext
+  products{{"Product sites and repos"}}:::ext
+  subgraph SYSTEM["thefiredev-cloud profile"]
+    readme["README.md<br/>Markdown"]:::doc
+    sec["SECURITY.md<br/>Markdown"]:::doc
+  end
+  owner -->|"edits"| readme
+  gh -->|"renders on profile"| readme
+  visitor -->|"opens profile"| gh
+  readme -.->|"links"| products
+  visitor -.->|"reports issues privately"| sec
+  classDef actor fill:#fde68a,stroke:#b45309,color:#111827
+  classDef doc fill:#fed7aa,stroke:#c2410c,color:#0b1220
+  classDef ext fill:#e5e7eb,stroke:#4b5563,color:#0b1220,stroke-dasharray:4 3

@@ -75,3 +75,27 @@ Most product code is private. Each repository states its license in its README. 
 - Mesh questions: contact@meshvault.ai. A person reads it and replies.
 - Consulting and freelance work: tanner@thefiredev.com
 - Security reports: see [SECURITY.md](SECURITY.md). Please do not open public issues for vulnerabilities.
+
+<!-- arch:begin -->
+## Architecture
+
+The GitHub profile README for Tanner Osterkamp and thefiredev-cloud: a map of products and public repositories.
+
+```mermaid
+flowchart LR
+  visitor(["Visitor"]):::actor
+  gh{{"GitHub profile page"}}:::ext
+  readme["README.md<br/>the profile"]:::doc
+  products{{"Products + repos<br/>linked out"}}:::ext
+  owner(["Owner"]):::actor
+  visitor -->|"opens"| gh
+  gh -->|"renders"| readme
+  readme -->|"links"| products
+  owner -->|"edits"| readme
+  classDef actor fill:#fde68a,stroke:#b45309,color:#111827
+  classDef doc fill:#fed7aa,stroke:#c2410c,color:#0b1220
+  classDef ext fill:#e5e7eb,stroke:#4b5563,color:#0b1220,stroke-dasharray:4 3
+```
+
+[Full architecture](docs/ARCHITECTURE.md) · Hi-res: [SVG](docs/architecture/whiteboard.svg) · [PNG 3x](docs/architecture/whiteboard@3x.png) · [dark PNG](docs/architecture/whiteboard.dark@3x.png) · [Explorable (Archify)](docs/architecture/thefiredev-cloud.archify.html) · [Graphify report](docs/architecture/graphify/GRAPH_REPORT.md)
+<!-- arch:end -->

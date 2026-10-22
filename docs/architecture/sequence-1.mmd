@@ -1,0 +1,10 @@
+sequenceDiagram
+  autonumber
+  actor v as Visitor
+  participant gh as GitHub
+  participant rd as README.md
+  participant prod as Product or repo
+  v->>gh: open github.com/thefiredev-cloud
+  gh->>rd: render profile README
+  rd-->>v: products and repo list
+  v->>prod: follow a link

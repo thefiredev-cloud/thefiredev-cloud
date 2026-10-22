@@ -1,0 +1,13 @@
+flowchart LR
+  visitor(["Visitor"]):::actor
+  gh{{"GitHub profile page"}}:::ext
+  readme["README.md<br/>the profile"]:::doc
+  products{{"Products + repos<br/>linked out"}}:::ext
+  owner(["Owner"]):::actor
+  visitor -->|"opens"| gh
+  gh -->|"renders"| readme
+  readme -->|"links"| products
+  owner -->|"edits"| readme
+  classDef actor fill:#fde68a,stroke:#b45309,color:#111827
+  classDef doc fill:#fed7aa,stroke:#c2410c,color:#0b1220
+  classDef ext fill:#e5e7eb,stroke:#4b5563,color:#0b1220,stroke-dasharray:4 3

@@ -1,0 +1,31 @@
+{
+ "repo": "thefiredev-cloud",
+ "files_tracked": 3,
+ "head": "9eb46e0fe783dacf28f4983da55a05c4b88df232",
+ "origin": "https://github.com/thefiredev-cloud/thefiredev-cloud.git",
+ "default_branch": "main",
+ "languages": [
+  [
+   ".md",
+   2
+  ]
+ ],
+ "readme": "README.md",
+ "readme_first_paragraph": "Founder of [Mesh](https://meshvault.ai) and [TheFireDev](https://thefiredev.com). AI application engineer in Dana Point, California.",
+ "top_dirs": [],
+ "manifests": [],
+ "libs": [],
+ "entry_points": [],
+ "services": [],
+ "deploy_targets": [],
+ "ci_workflows": [],
+ "cron_and_timers": [],
+ "files_scanned": 0,
+ "external_hosts": [],
+ "env_var_names": [],
+ "ci_secret_names": [],
+ "data_store_signals": {},
+ "auth_signals": {},
+ "tests": [],
+ "docs_files": []
+}
