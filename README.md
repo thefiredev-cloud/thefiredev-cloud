@@ -1,16 +1,16 @@
 # Tanner Osterkamp
 
-Founder of [Mesh](https://meshvault.ai) and [TheFireDev](https://thefiredev.com). AI application engineer in Dana Point, California.
+Founder of [Kodros](https://meshvault.ai) and [TheFireDev](https://thefiredev.com). AI application engineer in Dana Point, California.
 
-Mesh is a free iPhone app for your own AI assistant. It plans your day, explains a document and drafts a reply. Agents stop for a named person's approval before they send, pay, post, or delete.
+Kodros is local, on-prem AI for small and mid-size businesses: the model, the app, and the compute, installed in your building so your data never leaves it. Agents stop for a named person's approval before they send, pay, post, or delete.
 
 ## Products (status as of 2026-10-21)
 
-- **[Mesh](https://meshvault.ai)**: the iPhone app is pre-release (TestFlight by invite, no App Store listing yet). Android is an early build, not on Google Play yet. Download details are at [meshvault.ai/download](https://meshvault.ai/download).
-- **[The one-week install](https://meshvault.ai/install)**: a server you own, with Hermes Desktop and Mesh paired to it, and a backup that has passed a restore test. $4,950 fixed, 50% deposit.
+- **[Kodros](https://meshvault.ai)**: the iPhone app is pre-release (TestFlight by invite, no App Store listing yet). Android is an early build, not on Google Play yet. Download details are at [meshvault.ai/download](https://meshvault.ai/download).
+- **[The one-week install](https://meshvault.ai/install)**: a server you own, with Hermes Desktop and Kodros paired to it, and a backup that has passed a restore test. $4,950 fixed, 50% deposit.
 - **[Protocol Guide](https://protocol-guide.com)**: source-cited EMS protocol search by county for students, educators and clinicians. Every result names the protocol book it came from. Education and reference only: not a medical device, not for bedside care. State and county protocol pages and the blog are open on the web. The iPhone app is submitted to App Review. The Android app is in development.
 - **[JudgeFinder](https://judgefinder.io)**: free judge lookup built on CourtListener docket metadata, with no account. It shows court assignment, case volume and recent dockets. It is not legal advice and it publishes no bias scores.
-- **[MeshVault Harness](https://github.com/thefiredev-cloud/meshvault-harness)**: a shell installer for Linux or macOS that sets up Hermes Agent, OMP and a local Qwen3 model, plus 11 free skills that each carry a written approval step. A 9-skill Pro pack is $99 and a done-for-you install is $499, both described at [thefiredev.com/harness](https://thefiredev.com/harness).
+- **[Kodros Harness](https://github.com/thefiredev-cloud/meshvault-harness)**: a shell installer for Linux or macOS that sets up Hermes Agent, OMP and a local Qwen3 model, plus 11 free skills that each carry a written approval step. A 9-skill Pro pack is $99 and a done-for-you install is $499, both described at [thefiredev.com/harness](https://thefiredev.com/harness).
 - **[TheFireDev](https://thefiredev.com)**: my consulting and freelance studio. It builds AI systems for small businesses: the model, the application, and the compute.
 
 ## What I work on
@@ -85,6 +85,6 @@ Archived snapshots: [pc-desktop-amphours](https://github.com/thefiredev-cloud/pc
 
 - [LinkedIn](https://www.linkedin.com/in/tannerosterkamp)
 - Websites: [meshvault.ai](https://meshvault.ai) · [thefiredev.com](https://thefiredev.com)
-- Mesh questions: contact@meshvault.ai. A person reads it and replies.
+- Kodros questions: contact@meshvault.ai. A person reads it and replies.
 - Consulting and freelance work: tanner@thefiredev.com
 - Security reports: see [SECURITY.md](SECURITY.md). Please do not open public issues for vulnerabilities.
