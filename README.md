@@ -1,25 +1,24 @@
 # Tanner Osterkamp
 
-Founder of [Kodros](https://kodros.ai). I build private AI for small businesses and publish small, inspectable tools for AI agents. Based in Dana Point, California.
+Founder of [Kodros](https://kodros.ai). I build private AI for small businesses and publish small, inspectable tools for AI agents. Based in Orange County, California.
 
 ## Kodros
 
-Your business, on a server you own. Kodros sets up the server, the apps and a tested backup. Agents prepare work, and a named person approves anything that is sent, paid, posted or changed.
+Your business, on a computer you own. Kodros sets up the computer, the apps and a tested backup. AI agents prepare work, and a named person approves anything that is sent, paid, posted or changed.
 
 - Site: [kodros.ai](https://kodros.ai)
-- The iPhone app is pre-release and available by TestFlight invite. Details: [kodros.ai/download](https://kodros.ai/download).
+- The iPhone app is a free public beta on TestFlight and is not on the App Store. Details: [kodros.ai/download](https://kodros.ai/download).
 
 ## Other projects
 
-- [Protocol Guide](https://protocol-guide.com): source-cited EMS protocol search by county for students, educators and clinicians. Education and reference only. Not a medical device and not for bedside care.
-- [JudgeFinder](https://judgefinder.io): free judge lookup built on CourtListener docket metadata, with no account. Not legal advice.
+- [Protocol Guide](https://protocol-guide.com): EMS protocol search by county. Every result names its protocol book. For students, educators and medics. Education and reference only. Not a medical device and not for bedside care.
+- [JudgeFinder](https://judgefinder.io): federal judge and court docket search, built on public CourtListener data. Free to search. Not legal advice.
 
 ## Public repositories
 
 **Agents and MCP**
 
-- [meshvault-harness](https://github.com/thefiredev-cloud/meshvault-harness): Kodros Harness. A shell installer for Hermes Agent, OMP and a local Qwen3 model, plus 12 skills that each ask before they send, pay, post or delete.
-- [kodros-skills-starter](https://github.com/thefiredev-cloud/kodros-skills-starter): nine plain-Markdown agent skills for small-business admin work, each with a written approval gate. Now part of the harness.
+- [meshvault-harness](https://github.com/thefiredev-cloud/meshvault-harness): Kodros Harness. One shell command that installs the Hermes Agent and OMP agent tools and a local Qwen3 AI model on your own computer, plus 12 skills that each ask before they send, pay, post or delete. The repository keeps its old MeshVault name.
 - [agent-ops-kit](https://github.com/thefiredev-cloud/agent-ops-kit): Claude Code plugin with three habits that keep an agent honest, including a deny-list scanner that fails a build when private strings survive.
 - [eufy-camera-mcp](https://github.com/thefiredev-cloud/eufy-camera-mcp): MCP server that gives an agent view-only, allowlisted access to local cameras through MediaMTX.
 - [meshvault-agentic-architecture](https://github.com/thefiredev-cloud/meshvault-agentic-architecture): a written reference for multi-agent systems with one accountable agent and a human approval step. Documentation only.
