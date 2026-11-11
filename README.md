@@ -13,6 +13,7 @@ Your business, on a server you own. Kodros sets up the server, the apps and a te
 
 - [Protocol Guide](https://protocol-guide.com): EMS protocol search by county. Every result names its protocol book. For students, educators and medics. Education and reference only. Not a medical device and not for bedside care.
 - [JudgeFinder](https://judgefinder.io): federal judge and court docket search, built on public CourtListener data. Free to search. Not legal advice.
+- [TheFireDev](https://thefiredev.com): my studio site. It lists the full set of apps and sites and the fixed-price AI setup services I sell. The one table of every product, with its status and date, is the [portfolio](https://github.com/thefiredev-cloud/.github/blob/main/profile/README.md).
 
 ## Public repositories
 
