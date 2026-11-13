@@ -19,7 +19,7 @@ Your business, on a server you own. Kodros sets up the server, the apps and a te
 
 **AI agent tools (for developers)**
 
-- [kodros-harness](https://github.com/thefiredev-cloud/kodros-harness): Kodros Harness. One command sets up a private AI assistant on your own computer, with 12 ready-made skills that each ask before they send, pay, post or delete. It uses Hermes Agent, OMP and a local Qwen3 model. The repository keeps its old MeshVault name.
+- [kodros-harness](https://github.com/thefiredev-cloud/kodros-harness): Kodros Harness. One command sets up a private AI assistant on your own computer, with 12 ready-made skills that each ask before they send, pay, post or delete. It uses Hermes Agent, OMP and a local Qwen3 model.
 - [agent-ops-kit](https://github.com/thefiredev-cloud/agent-ops-kit): Claude Code plugin with three habits that keep an AI agent honest, including a scanner that fails the build when private text from a banned list is left in.
 - [eufy-camera-mcp](https://github.com/thefiredev-cloud/eufy-camera-mcp): lets an AI agent watch an approved list of local cameras, view only, through the MediaMTX video relay. It is an MCP server, the standard way AI tools plug in extra abilities.
 - [kodros-agentic-architecture](https://github.com/thefiredev-cloud/kodros-agentic-architecture): a written reference for AI systems built from several agents, with one accountable agent and a human approval step. Documentation only.
