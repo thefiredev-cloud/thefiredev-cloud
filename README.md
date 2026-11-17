@@ -1,50 +1,63 @@
 # Tanner Osterkamp
 
-Founder of [Kodros](https://kodros.ai). Firefighter-paramedic. I build private AI for small businesses and publish small, inspectable tools for AI agents. Based in Orange County, California.
+Founder of [Kodros](https://kodros.ai). Firefighter-paramedic in Orange County, California.
 
-## Kodros
+I build private AI that runs on hardware you own: a home inference cluster, the agents and MCP servers on top of it, and the iPhone, web and desktop apps people use to reach it. I also build public-safety software, including EMS protocol search for medics.
 
-Your business, on a server you own. Kodros sets up the server, the apps and a tested backup. AI agents prepare work, and a named person approves anything that is sent, paid, posted or changed.
+## The Kodros stack
 
-- Site: [kodros.ai](https://kodros.ai)
-- The iPhone app is a free public beta. You install it through Apple's TestFlight app. It is not on the App Store yet. Details: [kodros.ai/download](https://kodros.ai/download).
+```mermaid
+flowchart LR
+  subgraph Clients
+    P[iPhone and Watch apps, SwiftUI]
+    D[Desktop: Hermes Desktop, OMP, Claude Code]
+    W[Product web apps: Next.js on Vercel]
+  end
+  subgraph Hub[Home hub: Linux workstation, RTX 4080]
+    G[Hermes Agent gateway]
+    M[MCP servers and agent skills]
+    V[vram-pool router, ModelDeck]
+    S[Security watchtower]
+  end
+  subgraph Cluster[GB10 pair: DGX Spark + Ascent GX10]
+    E[OpenAI-compatible engine, tensor parallel over 200 Gb/s RoCE]
+  end
+  P & D -->|private mesh VPN| G
+  W --> X[(Supabase and Stripe)]
+  G --> M
+  G --> V
+  V --> E
+  V --> L[Local GPU models]
+```
 
-## Other projects
-
-- [Protocol Guide](https://protocol-guide.com): EMS protocol search by county. Every result names its protocol book. For students, educators and medics. Education and reference only. Not a medical device and not for bedside care.
-- [JudgeFinder](https://judgefinder.io): federal judge and court docket search, built on public CourtListener data. Free to search. Not legal advice.
-- [TheFireDev](https://thefiredev.com): my studio site. It lists the full set of apps and sites and the fixed-price AI setup services I sell. The one table of every product, with its status and date, is the [portfolio](https://github.com/thefiredev-cloud/.github/blob/main/profile/README.md).
+Phones and desktops talk to one hub over a private VPN. The hub runs the agent gateway, MCP tools and a router that picks which machine serves each model. The big model runs across two GB10 machines, so the agent path needs no hosted model. The product sites run separately on Vercel with Supabase and Stripe.
 
 ## Public repositories
 
-**AI agent tools (for developers)**
+| Repo | What it is |
+|---|---|
+| [kodros-lattice-wildfire](https://github.com/thefiredev-cloud/kodros-lattice-wildfire) | Five wildfire apps on Anduril's Lattice SDK: public fire feeds, fusion, recon planning, local-model briefs. Python. |
+| [kodros-vram-pool](https://github.com/thefiredev-cloud/kodros-vram-pool) | One OpenAI-compatible endpoint in front of every machine with GPU memory, with failover and a hot-swap slot. Rust. |
+| [kodros-gb10-deepseek-tp2](https://github.com/thefiredev-cloud/kodros-gb10-deepseek-tp2) | DeepSeek-V4.1-Flash across a DGX Spark and an Ascent GX10: settings, watchdogs and measured throughput. |
+| [kodros-mac-cu](https://github.com/thefiredev-cloud/kodros-mac-cu) | Swift CLI that lets an AI agent click, type and read any Mac app through the accessibility tree. |
+| [agent-ops-kit](https://github.com/thefiredev-cloud/agent-ops-kit) | Claude Code plugin: evidence before claims, and a scanner that fails a build when private data is left in. |
+| [eufy-camera-mcp](https://github.com/thefiredev-cloud/eufy-camera-mcp) | MCP server with view-only access to an allowlist of local cameras. |
+| [kodros-modeldeck](https://github.com/thefiredev-cloud/kodros-modeldeck) | Local model fleet dashboard with a three-check gate on cluster model swaps. |
+| [kodros-sec-edgar-mcp](https://github.com/thefiredev-cloud/kodros-sec-edgar-mcp) | Read-only MCP server for SEC filings; every number cites its filing. |
+| [kodros-search-console-mcp](https://github.com/thefiredev-cloud/kodros-search-console-mcp) | MCP server for Google Search Console with confirm-gated writes and a state-checked OAuth sign-in. |
+| [kodros-bot](https://github.com/thefiredev-cloud/kodros-bot) | Self-hostable bot app on Hermes Agent, one computer per bot. Fork of Rakazo. |
 
-- [kodros-harness](https://github.com/thefiredev-cloud/kodros-harness): Kodros Harness. One command sets up a private AI assistant on your own computer, with 12 ready-made skills that each ask before they send, pay, post or delete. It uses Hermes Agent, OMP and a local Qwen3 model.
-- [agent-ops-kit](https://github.com/thefiredev-cloud/agent-ops-kit): Claude Code plugin with three habits that keep an AI agent honest, including a scanner that fails the build when private text from a banned list is left in.
-- [eufy-camera-mcp](https://github.com/thefiredev-cloud/eufy-camera-mcp): lets an AI agent watch an approved list of local cameras, view only, through the MediaMTX video relay. It is an MCP server, the standard way AI tools plug in extra abilities.
-- [kodros-agentic-architecture](https://github.com/thefiredev-cloud/kodros-agentic-architecture): a written reference for AI systems built from several agents, with one accountable agent and a human approval step. Documentation only.
-- [kodros-bot](https://github.com/thefiredev-cloud/kodros-bot): Kodros Bot, a self-hostable bot app on Hermes Agent where each bot gets its own computer. Fork of Rakazo.
+Also: [airpods-max-sidetone](https://github.com/thefiredev-cloud/airpods-max-sidetone) (PipeWire sidetone for AirPods Max), [reach-plugins](https://github.com/thefiredev-cloud/reach-plugins) and [reach-plugins-registry](https://github.com/thefiredev-cloud/reach-plugins-registry) (Reach SSH client), and forks of [Reach](https://github.com/thefiredev-cloud/Reach) and [hermes-agent](https://github.com/thefiredev-cloud/hermes-agent), where upstream is canonical.
 
-**Linux**
+## Products
 
-- [airpods-max-sidetone](https://github.com/thefiredev-cloud/airpods-max-sidetone): PipeWire sidetone loopback for AirPods Max, active only while another app records the mic.
+- [Kodros](https://kodros.ai): your business on a server you own, with AI agents that ask a named person before anything is sent, paid, posted or changed. iPhone app in TestFlight beta.
+- [Protocol Guide](https://protocol-guide.com): EMS protocol search by county. Every answer names its protocol book. Education and reference only.
+- [JudgeFinder](https://judgefinder.io): federal judge and docket search on public CourtListener data. Not legal advice.
+- [AmpHours](https://apps.apple.com/us/app/amphours-battery-runtime/id6819963364): offline battery runtime calculator for iPhone, on the App Store.
 
-**Reach plugins**
-
-- [reach-plugins](https://github.com/thefiredev-cloud/reach-plugins): example Lua plugins for the Reach SSH client.
-- [reach-plugins-registry](https://github.com/thefiredev-cloud/reach-plugins-registry): plugin registry index for Reach.
-
-**Forks of other projects**
-
-Upstream is canonical for each of these. Use the upstream repository for current code.
-
-- [Reach](https://github.com/thefiredev-cloud/Reach): Tauri SSH client, with macOS copy and paste, vault password and registry URL fixes.
-- [hermes-agent](https://github.com/thefiredev-cloud/hermes-agent), [awesome-remote-mcp-servers](https://github.com/thefiredev-cloud/awesome-remote-mcp-servers), [awesome-medical-mcp-servers](https://github.com/thefiredev-cloud/awesome-medical-mcp-servers) and [awesome-gemini-cli-extensions](https://github.com/thefiredev-cloud/awesome-gemini-cli-extensions).
+Product source for these stays private. The full list with status is in the [portfolio](https://github.com/thefiredev-cloud/.github/blob/main/profile/README.md).
 
 ## Contact
 
-- Email: [tanner@kodros.ai](mailto:tanner@kodros.ai)
-- LinkedIn: [tannerosterkamp](https://www.linkedin.com/in/tannerosterkamp)
-- Security reports: see [SECURITY.md](SECURITY.md). Please do not open public issues for vulnerabilities.
-
-Original code here is all rights reserved unless a repository says otherwise. Forks keep their upstream licenses. Licensing questions: tanner@kodros.ai.
+[tanner@kodros.ai](mailto:tanner@kodros.ai) · [LinkedIn](https://www.linkedin.com/in/tannerosterkamp) · Security reports: [SECURITY.md](SECURITY.md)
