@@ -41,6 +41,8 @@ Phones and desktops talk to one hub over a private VPN. The hub runs the agent g
 | [kodros-modeldeck](https://github.com/thefiredev-cloud/kodros-modeldeck) | Local model fleet dashboard with a three-check gate on cluster model swaps. Python. |
 | [kodros-openai-endpoint-bench](https://github.com/thefiredev-cloud/kodros-openai-endpoint-bench) | One Python file that times a streaming OpenAI-compatible endpoint: first token, prefill and decode speed, two-stream throughput. |
 | [kodros-localclip](https://github.com/thefiredev-cloud/kodros-localclip) | Short-clip maker that transcribes, picks moments with a local LLM, crops to faces and adds captions. Runs on your own GPU or CPU. |
+| [kodros-localavatar](https://github.com/thefiredev-cloud/kodros-localavatar) | Talking-head video maker: one photo and a script in, a captioned MP4 out, all on your own GPU. Python. |
+| [kodros-localbolt](https://github.com/thefiredev-cloud/kodros-localbolt) | Prompt-to-web-app builder that runs against a local model server, with versions and a sandboxed preview. Python. |
 | [kodros-lattice-wildfire](https://github.com/thefiredev-cloud/kodros-lattice-wildfire) | Five wildfire apps on Anduril's Lattice SDK: public fire feeds, fusion, recon planning, local-model briefs. Python. |
 | [kodros-mac-cu](https://github.com/thefiredev-cloud/kodros-mac-cu) | Swift CLI that lets an AI agent click, type and read any Mac app through the accessibility tree. |
 | [kodros-orb](https://github.com/thefiredev-cloud/kodros-orb) | macOS floating panel for talking to the Pi coding agent, sharing your screen and running commands. Swift. |
