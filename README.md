@@ -36,15 +36,23 @@ Phones and desktops talk to one hub over a private VPN. The hub runs the agent g
 
 | Repo | What it is |
 |---|---|
-| [kodros-lattice-wildfire](https://github.com/thefiredev-cloud/kodros-lattice-wildfire) | Five wildfire apps on Anduril's Lattice SDK: public fire feeds, fusion, recon planning, local-model briefs. Python. |
 | [kodros-vram-pool](https://github.com/thefiredev-cloud/kodros-vram-pool) | One OpenAI-compatible endpoint in front of every machine with GPU memory, with failover and a hot-swap slot. Rust. |
-| [kodros-gb10-deepseek-tp2](https://github.com/thefiredev-cloud/kodros-gb10-deepseek-tp2) | DeepSeek-V4.1-Flash across a DGX Spark and an Ascent GX10: settings, watchdogs and measured throughput. |
+| [kodros-gb10-deepseek-tp2](https://github.com/thefiredev-cloud/kodros-gb10-deepseek-tp2) | DeepSeek-V4.1-Flash (a China-origin model) across a DGX Spark and an Ascent GX10: settings, watchdogs and measured throughput. |
+| [kodros-modeldeck](https://github.com/thefiredev-cloud/kodros-modeldeck) | Local model fleet dashboard with a three-check gate on cluster model swaps. Python. |
+| [kodros-openai-endpoint-bench](https://github.com/thefiredev-cloud/kodros-openai-endpoint-bench) | One Python file that times a streaming OpenAI-compatible endpoint: first token, prefill and decode speed, two-stream throughput. |
+| [kodros-localclip](https://github.com/thefiredev-cloud/kodros-localclip) | Short-clip maker that transcribes, picks moments with a local LLM, crops to faces and adds captions. Runs on your own GPU or CPU. |
+| [kodros-lattice-wildfire](https://github.com/thefiredev-cloud/kodros-lattice-wildfire) | Five wildfire apps on Anduril's Lattice SDK: public fire feeds, fusion, recon planning, local-model briefs. Python. |
 | [kodros-mac-cu](https://github.com/thefiredev-cloud/kodros-mac-cu) | Swift CLI that lets an AI agent click, type and read any Mac app through the accessibility tree. |
-| [agent-ops-kit](https://github.com/thefiredev-cloud/agent-ops-kit) | Claude Code plugin: evidence before claims, and a scanner that fails a build when private data is left in. |
-| [eufy-camera-mcp](https://github.com/thefiredev-cloud/eufy-camera-mcp) | MCP server with view-only access to an allowlist of local cameras. |
-| [kodros-modeldeck](https://github.com/thefiredev-cloud/kodros-modeldeck) | Local model fleet dashboard with a three-check gate on cluster model swaps. |
+| [kodros-orb](https://github.com/thefiredev-cloud/kodros-orb) | macOS floating panel for talking to the Pi coding agent, sharing your screen and running commands. Swift. |
+| [kodros-chromectl](https://github.com/thefiredev-cloud/kodros-chromectl) | One-file CLI that lets an agent drive Chromium over loopback DevTools, with safety rules. |
 | [kodros-sec-edgar-mcp](https://github.com/thefiredev-cloud/kodros-sec-edgar-mcp) | Read-only MCP server for SEC filings; every number cites its filing. |
 | [kodros-search-console-mcp](https://github.com/thefiredev-cloud/kodros-search-console-mcp) | MCP server for Google Search Console with confirm-gated writes and a state-checked OAuth sign-in. |
+| [kodros-moa-architecture](https://github.com/thefiredev-cloud/kodros-moa-architecture) | Written reference for a multi-agent design with one accountable agent and a human approval gate. Documentation only. |
+| [agent-ops-kit](https://github.com/thefiredev-cloud/agent-ops-kit) | Claude Code plugin: evidence before claims, and a scanner that fails a build when private data is left in. |
+| [eufy-camera-mcp](https://github.com/thefiredev-cloud/eufy-camera-mcp) | MCP server with view-only access to an allowlist of local cameras. |
+| [omarchy-doctors](https://github.com/thefiredev-cloud/omarchy-doctors) | Four read-only diagnostics for an Omarchy desktop: display lag, input, bar plugins and Quickshell crashes. |
+| [omarchy-ai-token-bar](https://github.com/thefiredev-cloud/omarchy-ai-token-bar) | Two Omarchy bar widgets that count AI tokens from local agent logs and from a local model cluster. |
+| [omarchy-deck](https://github.com/thefiredev-cloud/omarchy-deck) | Omarchy Deck source: iOS app, MCP server and web view. Being published; the link works once the repo is public. |
 | [kodros-bot](https://github.com/thefiredev-cloud/kodros-bot) | Self-hostable bot app on Hermes Agent, one computer per bot. Fork of Rakazo. |
 
 Also: [airpods-max-sidetone](https://github.com/thefiredev-cloud/airpods-max-sidetone) (PipeWire sidetone for AirPods Max), [reach-plugins](https://github.com/thefiredev-cloud/reach-plugins) and [reach-plugins-registry](https://github.com/thefiredev-cloud/reach-plugins-registry) (Reach SSH client), and forks of [Reach](https://github.com/thefiredev-cloud/Reach) and [hermes-agent](https://github.com/thefiredev-cloud/hermes-agent), where upstream is canonical.
